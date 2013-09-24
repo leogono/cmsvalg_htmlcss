@@ -1,0 +1,118 @@
+/*!
+Author: Leo Gono
+Twitter: @leogono
+*/
+.cmsvalg {
+  background: #f4f4f4 url("../img/main-bg.png"); }
+
+#masthead {
+  background: url("../img/menu-bg.png") repeat-x left bottom;
+  padding-bottom: 7px; }
+  #masthead #branding {
+    background: #ba0000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; }
+    #masthead #branding .site-name {
+      color: #fff;
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: 700; }
+    #masthead #branding .site-desc {
+      font-size: 12px;
+      color: #dea3a3;
+      line-height: 10px; }
+  #masthead #searchform, #masthead #knowledge-cat, #masthead #call-to-action {
+    float: left;
+    margin-left: 10px; }
+  #masthead #searchform {
+    margin-left: 0;
+    min-width: 360px; }
+    #masthead #searchform .form-control {
+      border: none; }
+      #masthead #searchform .form-control:focus {
+        box-shadow: none; }
+
+#main {
+  margin-top: -7px; }
+  #main .w-thumbnails {
+    position: relative;
+    margin: 10px 0; }
+    #main .w-thumbnails .post-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      margin-bottom: 0; }
+      #main .w-thumbnails .post-title a {
+        border-bottom: 1px solid #999;
+        color: #333333;
+        display: block;
+        padding: 10px;
+        margin: 0 15px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20px;
+        background: url("../img/white-trans.png"); }
+    #main .w-thumbnails:hover > .post-title > a {
+      color: white;
+      background: #ba0000;
+      text-decoration: none; }
+    #main .w-thumbnails .comment-count-wrap {
+      position: absolute;
+      top: 0;
+      right: 15px;
+      background: #414141;
+      padding: 5px 10px; }
+      #main .w-thumbnails .comment-count-wrap a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 300; }
+        #main .w-thumbnails .comment-count-wrap a .icon-comment {
+          font-size: 16px; }
+  #main #feat-content .w-thumbnails .post-title a {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.3em;
+    padding: 15px; }
+  #main #feat-content .w-thumbnails .comment-count-wrap {
+    right: 0; }
+  #main .section-title {
+    font-size: 24px;
+    font-weight: 300;
+    padding: 20px; }
+  #main #knowledge-lists {
+    background: white; }
+
+#sidebar-widget {
+  background: white; }
+  #sidebar-widget .widget-header {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 0;
+    padding: 10px 15px; }
+  #sidebar-widget #cms-cat {
+    font-size: 16px;
+    font-weight: 300; }
+    #sidebar-widget #cms-cat .list-group-item {
+      border-left: 0;
+      border-right: 0; }
+      #sidebar-widget #cms-cat .list-group-item a {
+        color: #666666; }
+      #sidebar-widget #cms-cat .list-group-item:hover {
+        background: #f4f4f4;
+        border-right: 5px solid #ba0000; }
+
+.spr {
+  background: url("../img/sprite-cmsvalg.png") no-repeat; }
+  .spr.novicel-logo {
+    background-position: 0 -238px;
+    width: 95px;
+    height: 57px;
+    display: block;
+    background-color: transparent;
+    color: transparent;
+    border: 0;
+    font: 0/0 a;
+    text-shadow: none; }

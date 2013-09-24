@@ -1,0 +1,42 @@
+/*!
+Author: Leo Gono
+Twitter: @leogono
+*/
+.cmsvalg {
+	background: $gray url('#{$imgUrl}/main-bg.png');
+}
+#masthead {
+	background: url('#{$imgUrl}/menu-bg.png') repeat-x left bottom;
+	padding-bottom: 7px;
+	#branding {
+		background: $brand;
+		color: #fff;
+		text-align: center;
+		padding: 10px 0;
+		.site-name {
+			color: #fff;
+			text-decoration: none;
+			font-size: 30px;
+			font-weight: 700;
+		}
+		.site-desc {
+			font-size: 12px;
+			color: #dea3a3;
+			line-height: 10px;
+		}
+	}
+	#searchform, #knowledge-cat, #call-to-action {
+		float: left;
+		margin-left: 10px;
+	}
+	#searchform {
+		margin-left: 0;
+		min-width: 360px;
+		.form-control {
+			border: none;
+			&:focus {
+				box-shadow: none;
+			}
+		}
+	}
+}

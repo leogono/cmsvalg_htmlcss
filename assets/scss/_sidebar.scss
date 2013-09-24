@@ -1,0 +1,26 @@
+#sidebar-widget {
+	background: $white;
+
+	//Widgets
+	.widget-header {
+		font-size: 18px;
+		font-weight: 300;
+		margin-top: 0;
+		padding: 10px 15px;
+	}
+	#cms-cat {
+		font-size: 16px;
+		font-weight: 300;
+		.list-group-item {
+			border-left: 0;
+			border-right: 0;
+			a {
+				color: #666666;
+			}
+			&:hover {
+				background: $gray;
+				border-right: 5px solid $brand;
+			}
+		}
+	}
+}

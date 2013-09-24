@@ -1,0 +1,10 @@
+.spr {
+	background: url('#{$imgUrl}/sprite-cmsvalg.png') no-repeat;
+	&.novicel-logo {
+		background-position: 0 -238px;
+		width: 95px;
+		height: 57px;
+		display: block;
+		@include hide-text;
+	}
+}
