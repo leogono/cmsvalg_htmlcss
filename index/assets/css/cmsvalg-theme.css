@@ -73,13 +73,15 @@ Twitter: @leogono
         font-weight: 300; }
         #main .w-thumbnails .comment-count-wrap a .icon-comment {
           font-size: 16px; }
-  #main #feat-content .w-thumbnails .post-title a {
-    margin: 0;
-    font-size: 24px;
-    line-height: 1.3em;
-    padding: 15px; }
-  #main #feat-content .w-thumbnails .comment-count-wrap {
-    right: 0; }
+  #main #feat-content {
+    margin-top: 20px; }
+    #main #feat-content .w-thumbnails .post-title a {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.3em;
+      padding: 15px; }
+    #main #feat-content .w-thumbnails .comment-count-wrap {
+      right: 0; }
   #main .section-title {
     font-size: 24px;
     font-weight: 300;
@@ -126,12 +128,15 @@ Twitter: @leogono
       #sidebar-widget .most-contributor li span {
         float: left;
         font-size: 12px;
+        font-weight: 400;
         color: #333333;
         line-height: 16px;
         margin-top: 3px; }
         #sidebar-widget .most-contributor li span.author-desc {
           color: #666666;
           margin-top: 0px; }
+      #sidebar-widget .most-contributor li:hover span {
+        color: #ba0000; }
       #sidebar-widget .most-contributor li .author {
         margin-right: 10px; }
 

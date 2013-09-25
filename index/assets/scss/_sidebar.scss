@@ -31,12 +31,18 @@
 			span {
 				float: left;
 				font-size: 12px;
+				font-weight: 400;
 				color: $textColor;
 				line-height: 16px;
 				margin-top: 3px;
 				&.author-desc {
 					color: $linkColor;
 					margin-top: 0px;
+				}
+			}
+			&:hover  {
+				span {
+					color: $brand;
 				}
 			}
 			.author {
