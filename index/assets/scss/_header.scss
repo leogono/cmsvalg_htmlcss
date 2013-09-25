@@ -68,3 +68,24 @@ Twitter: @leogono
 		}
 	}
 }
+#breadcrumbs {
+	background: $white;
+	margin-top: 30px;
+	padding: 10px 15px;
+	p  {
+		margin: 0;
+	}
+	.bcrumbs {
+		margin-right: 10px;
+	}
+	a {
+		color: $textColor;
+		&:hover{
+			color: $brand;
+		}
+	}
+	.icon-chevron-right {
+		font-size: 13px;
+		margin-right: 5px;
+	}
+}
