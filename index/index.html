@@ -29,17 +29,20 @@
     <header id="masthead">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-md-3 col-sm-12">
             <div id="branding">
               <a href="/" class="site-name">CMSValg.dk</a>
               <p class="site-desc">din guide til valg af CMS</p>
             </div>
           </div>
-          <div class="col-sm-9">
-            <div id="searchform">
+          <div class="col-md-5 col-sm-6">
+            <div id="searchform" class="input-group">
+              <span class="input-group-addon"><i class="icon-search"></i> </span>
               <input type="text" class="form-control input-lg" placeholder="Er der noget bestemt du søger?">
             </div>
-            <div id="knowledge-cat" class="btn-group">
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div id="knowledge-cat" class="btn-group pull-left">
               <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                 Alt vores CMS viden <span class="caret"></span>
               </button>
@@ -51,7 +54,7 @@
                 <li><a href="#">Separated link</a></li>
               </ul>
             </div>
-            <div id="call-to-action">
+            <div id="call-to-action" class="pull-right">
               <a href="#" class="btn btn-primary">Rådgivning</a>
             </div>
           </div>
@@ -218,5 +221,7 @@
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/holder.js"></script>
+    <script src="assets/js/jquery.placeholder.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
   </body>
 </html>
