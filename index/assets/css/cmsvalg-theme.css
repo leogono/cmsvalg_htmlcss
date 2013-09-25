@@ -85,12 +85,16 @@ Twitter: @leogono
   #main .section-title {
     font-size: 24px;
     font-weight: 300;
-    padding: 20px; }
+    padding: 20px;
+    margin: 0; }
   #main #knowledge-lists {
     background: white;
-    margin-bottom: 20px; }
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden; }
     #main #knowledge-lists .row {
-      margin: 0; }
+      margin-left: 0;
+      margin-right: -2px; }
       #main #knowledge-lists .row > div {
         padding: 0;
         border: 1px solid #d6d6d6;

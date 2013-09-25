@@ -66,14 +66,18 @@
 		font-size: 24px;
 		font-weight: 300;
 		padding: 20px;
+		margin: 0;
 	}
 
 	//Knowledge Lists
 	#knowledge-lists  {
 		background: $white;
+		margin-top: 10px;
 		margin-bottom: 20px;
+		overflow: hidden;
 		.row {
-			margin: 0;
+			margin-left: 0;
+			margin-right: -2px;
 			& > div {
 				padding: 0;
 				border: 1px solid #d6d6d6;
