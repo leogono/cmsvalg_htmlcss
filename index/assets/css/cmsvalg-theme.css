@@ -137,9 +137,17 @@ Twitter: @leogono
     font-weight: 300; }
     #sidebar-widget #cms-cat .list-group-item {
       border-left: 0;
-      border-right: 0; }
+      border-right: 0;
+      padding: 0; }
       #sidebar-widget #cms-cat .list-group-item a {
-        color: #666666; }
+        color: #666666;
+        display: block;
+        padding: 10px 15px; }
+        #sidebar-widget #cms-cat .list-group-item a img {
+          margin-right: 10px;
+          max-width: 28px; }
+        #sidebar-widget #cms-cat .list-group-item a:hover {
+          text-decoration: none; }
       #sidebar-widget #cms-cat .list-group-item:hover {
         background: #f4f4f4;
         border-right: 5px solid #ba0000; }
