@@ -156,11 +156,17 @@ Twitter: @leogono
       margin-top: -20px;
       margin-bottom: 10px; }
   #site-info .footer-icon {
-    text-align: center; }
+    text-align: center;
+    min-height: 137px; }
     #site-info .footer-icon a {
+      display: block;
+      text-align: center;
       color: #999; }
       #site-info .footer-icon a:hover {
         color: #e6e6e6; }
+    #site-info .footer-icon .spr {
+      display: block;
+      margin: 15px auto; }
 
 .spr {
   background: url("../img/sprite-cmsvalg.png") no-repeat; }
@@ -174,6 +180,18 @@ Twitter: @leogono
     border: 0;
     font: 0/0 a;
     text-shadow: none; }
+  .spr.spr-linkedin {
+    background-position: -223px -238px;
+    width: 59px;
+    height: 61px; }
+  .spr.spr-about-cmsvalg {
+    background-position: -135px -238px;
+    width: 44px;
+    height: 61px; }
+  .spr.spr-advice {
+    background-position: -317px -238px;
+    width: 68px;
+    height: 61px; }
   .spr.spr-integ {
     background-position: 0 0; }
   .spr.spr-ehandel {

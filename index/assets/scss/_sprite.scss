@@ -7,6 +7,21 @@
 		display: block;
 		@include hide-text;
 	}
+	&.spr-linkedin {
+		background-position: -223px -238px;
+		width: 59px;
+		height: 61px;
+	}
+	&.spr-about-cmsvalg {
+		background-position: -135px -238px;
+		width: 44px;
+		height: 61px;
+	}
+	&.spr-advice {
+		background-position: -317px -238px;
+		width: 68px;
+		height: 61px;
+	}
 	&.spr-integ {
 		background-position: 0 0;
 	}
