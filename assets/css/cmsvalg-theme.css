@@ -103,6 +103,26 @@ Twitter: @leogono
       #sidebar-widget #cms-cat .list-group-item:hover {
         background: #f4f4f4;
         border-right: 5px solid #ba0000; }
+  #sidebar-widget .most-contributor {
+    padding: 0;
+    list-style: none; }
+    #sidebar-widget .most-contributor li {
+      padding: 0 15px 10px; }
+      #sidebar-widget .most-contributor li span {
+        float: left;
+        font-size: 12px;
+        color: #333333;
+        line-height: 16px;
+        margin-top: 5px; }
+        #sidebar-widget .most-contributor li span.author-desc {
+          color: #666666;
+          margin-top: 0px; }
+      #sidebar-widget .most-contributor li .author {
+        margin-right: 10px; }
+
+#site-info {
+  background: #252525;
+  color: #999; }
 
 .spr {
   background: url("../img/sprite-cmsvalg.png") no-repeat; }
