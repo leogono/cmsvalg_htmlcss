@@ -54,6 +54,22 @@ Twitter: @leogono
   #masthead #call-to-action .btn {
     padding: 7px 12px; }
 
+#breadcrumbs {
+  background: white;
+  margin-top: 30px;
+  padding: 10px 15px; }
+  #breadcrumbs p {
+    margin: 0; }
+  #breadcrumbs .bcrumbs {
+    margin-right: 10px; }
+  #breadcrumbs a {
+    color: #333333; }
+    #breadcrumbs a:hover {
+      color: #ba0000; }
+  #breadcrumbs .icon-chevron-right {
+    font-size: 13px;
+    margin-right: 5px; }
+
 #main {
   margin-top: -7px;
   margin-bottom: 20px;
@@ -201,6 +217,22 @@ Twitter: @leogono
     #site-info .footer-icon .spr {
       display: block;
       margin: 15px auto; }
+
+.single #main {
+  margin-top: 20px; }
+  .single #main .post {
+    background: white;
+    padding: 20px 30px; }
+
+.author-info {
+  padding: 20px 10px;
+  background: white; }
+
+.float-title {
+  background: white;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 15px; }
 
 .spr {
   background: url("../img/sprite-cmsvalg.png") no-repeat; }
