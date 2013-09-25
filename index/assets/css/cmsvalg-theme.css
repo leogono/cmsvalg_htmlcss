@@ -55,7 +55,9 @@ Twitter: @leogono
     padding: 7px 12px; }
 
 #main {
-  margin-top: -7px; }
+  margin-top: -7px;
+  margin-bottom: 20px;
+  overflow: hidden; }
   #main .w-thumbnails {
     position: relative;
     margin: 10px 0; }
@@ -109,7 +111,6 @@ Twitter: @leogono
   #main #knowledge-lists {
     background: white;
     margin-top: 10px;
-    margin-bottom: 20px;
     overflow: hidden; }
     #main #knowledge-lists .row {
       margin-left: 0;
@@ -126,7 +127,9 @@ Twitter: @leogono
         text-decoration: none; }
 
 #sidebar-widget {
-  background: white; }
+  background: white;
+  margin-bottom: -9999em;
+  padding-bottom: 9999em; }
   #sidebar-widget .widget-header {
     font-size: 18px;
     font-weight: 300;

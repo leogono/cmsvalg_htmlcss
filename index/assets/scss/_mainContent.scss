@@ -1,5 +1,7 @@
 #main {
 	margin-top: -7px;
+	margin-bottom: 20px;
+	overflow: hidden;
 	.w-thumbnails {
 		position: relative;
 		margin: 10px 0;
@@ -73,7 +75,6 @@
 	#knowledge-lists  {
 		background: $white;
 		margin-top: 10px;
-		margin-bottom: 20px;
 		overflow: hidden;
 		.row {
 			margin-left: 0;
