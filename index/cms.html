@@ -7,10 +7,12 @@
     <meta name="author" content="">
     <!-- <link rel="shortcut icon" href="assets/ico/favicon.png"> -->
 
-    <title>CMSValg.dk</title>
+    <title>Umbraco CMS - CMSValg.dk</title>
 
     <!-- Bootstrap CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/cmsvalg-theme.css" rel="stylesheet">
@@ -22,357 +24,174 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body class="home cmsvalg single">
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <header id="masthead">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Bootstrap theme</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <div id="branding">
+              <a href="/" class="site-name">CMSValg.dk</a>
+              <p class="site-desc">din guide til valg af CMS</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-7">
+            <div id="searchform" class="input-group">
+              <span class="input-group-addon"><i class="icon-search"></i> </span>
+              <input type="text" class="form-control input-lg" placeholder="Er der noget bestemt du søger?">
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-5">
+            <div id="knowledge-cat" class="btn-group pull-right">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Alt vores CMS viden <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
                 <li><a href="#">Something else here</a></li>
                 <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
                 <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
               </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </header>
+
+    <div class="container">
+      <div id="breadcrumbs">
+        <p><a href="#" class="bcrumbs url">Forside</a>        <a href="#" class="bcrumbs url">Umbraco</a>        <span class="bcrumbs current"><i class="icon-caret-right"></i> Valg af Umbraco leverandør</span></p>
       </div>
     </div>
 
-    <div class="container theme-showcase">
-
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-      </div>
-
-
-
-      <div class="page-header">
-        <h1>Buttons</h1>
-      </div>
-      <p>
-        <button type="button" class="btn btn-lg btn-default">Default</button>
-        <button type="button" class="btn btn-lg btn-primary">Primary</button>
-        <button type="button" class="btn btn-lg btn-success">Success</button>
-        <button type="button" class="btn btn-lg btn-info">Info</button>
-        <button type="button" class="btn btn-lg btn-warning">Warning</button>
-        <button type="button" class="btn btn-lg btn-danger">Danger</button>
-        <button type="button" class="btn btn-lg btn-link">Link</button>
-      </p>
-      <p>
-        <button type="button" class="btn btn-default">Default</button>
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-success">Success</button>
-        <button type="button" class="btn btn-info">Info</button>
-        <button type="button" class="btn btn-warning">Warning</button>
-        <button type="button" class="btn btn-danger">Danger</button>
-        <button type="button" class="btn btn-link">Link</button>
-      </p>
-      <p>
-        <button type="button" class="btn btn-sm btn-default">Default</button>
-        <button type="button" class="btn btn-sm btn-primary">Primary</button>
-        <button type="button" class="btn btn-sm btn-success">Success</button>
-        <button type="button" class="btn btn-sm btn-info">Info</button>
-        <button type="button" class="btn btn-sm btn-warning">Warning</button>
-        <button type="button" class="btn btn-sm btn-danger">Danger</button>
-        <button type="button" class="btn btn-sm btn-link">Link</button>
-      </p>
-      <p>
-        <button type="button" class="btn btn-xs btn-default">Default</button>
-        <button type="button" class="btn btn-xs btn-primary">Primary</button>
-        <button type="button" class="btn btn-xs btn-success">Success</button>
-        <button type="button" class="btn btn-xs btn-info">Info</button>
-        <button type="button" class="btn btn-xs btn-warning">Warning</button>
-        <button type="button" class="btn btn-xs btn-danger">Danger</button>
-        <button type="button" class="btn btn-xs btn-link">Link</button>
-      </p>
-
-
-
-      <div class="page-header">
-        <h1>Thumbnails</h1>
-      </div>
-      <img data-src="holder.js/200x200" src="data:image/png;base64," class="img-thumbnail" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
-
-
-
-      <div class="page-header">
-        <h1>Dropdown menus</h1>
-      </div>
-      <div class="dropdown theme-dropdown clearfix">
-        <a id="dropdownMenu1" href="#" role="button" class="sr-only dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-          <li role="presentation" class="divider"></li>
-          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
-        </ul>
-      </div>
-
-
-
-
-      <div class="page-header">
-        <h1>Navbars</h1>
-      </div>
-
-      <div class="navbar navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
+    <main id="main" role="document">
+      <div class="container">
+        <div class="row">
+          <article class="col-sm-8 col-md-9">
+            <div id="content" class="post">
+              <header class="post-header">
+                <h1 class="post-title">Valg af Umbraco leverandør</h1>
+                <div class="meta post-meta">
+                  <div class="post-author">
+                    Skrevet af <a href="#" >Morten Kusk</a>
+                  </div>
+                  <ul class="additional-meta clearfix">
+                    <li class="date"><i class="icon-calendar"></i> 27. august, 2013</li>
+                    <li class="category"><i class="icon-tags"></i> Umbraco</li>
+                    <li class="comments"><i class="icon-comments"></i> <a href="#comments-tag">3 kommentarer</a></li>
+                  </ul>
+                </div>
+              </header>
+              <div class="entry-content">
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit.</p>
+                <h2>Overskrift på afsnit</h2>
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
+                <p>
+                  <img data-src="holder.js/800x300" src="data:image/png;base64," class="img-thumbnail img-responsive" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+                  <caption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, sunt, voluptates eveniet expedita minus sint ad earum provident fugit veniam eum rem quisquam blanditiis. Nisi qui tempore reiciendis officia harum.</caption>
+                </p>
+                <h2>Overskrift på afsnit</h2>
+                <p>Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+              </div>
+              <div class="referencer">
+                <h2 class="box-title">Referencer</h2>
+                <ul class="lists referemce-list">
+                  <li><a href="#">Lorem ipsum dolor sit amet</a> - Proin gravida nibh vel velit auctor aliquet.</li>
+                  <li><a href="#">Lorem ipsum dolor sit amet</a> - Proin gravida nibh vel velit auctor aliquet.</li>
+                  <li><a href="#">Lorem ipsum dolor sit amet</a> - Proin gravida nibh vel velit auctor aliquet.</li>
                 </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="../navbar/">Default</a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li class="active"><a href="./">Fixed top</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+              </div>
+              <div id="comments-tag">
+                <h2 class="box-title">Kommentarer</h2>
+                <img data-src="holder.js/800x300/simple/text:Disqus Comment" src="data:image/png;base64," class="img-responsive" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
+              </div>
+            </div>
+
+            <!-- Related Posts -->
+            <div id="related-posts">
+              <h2 class="float-title">Relaterede Umbraco artikler</h2>
+
+              <div id="content-lists">
+                <div class="row">
+                  <article class="related-post col-sm-4 w-thumbnails">
+                    <a href="#" class="post-thumbnail">
+                      <img src="assets/img/post-thumb.jpg" alt="Post Title" class="img-responsive">
+                    </a>
+                    <h1 class="post-title"><a href="#">5 råd til valg af det bedste e-handels CMS</a></h1>
+                    <div class="comment-count-wrap">
+                      <a href="#" class="comment-count"><i class="icon-comment"></i> 5</a>
+                    </div>
+                  </article>
+                  <article class="related-post col-sm-4 w-thumbnails">
+                    <a href="#" class="post-thumbnail">
+                      <img src="assets/img/post-thumb.jpg" alt="Post Title" class="img-responsive">
+                    </a>
+                    <h1 class="post-title"><a href="#">5 råd til valg af det bedste e-handels CMS</a></h1>
+                    <div class="comment-count-wrap">
+                      <a href="#" class="comment-count"><i class="icon-comment"></i> 5</a>
+                    </div>
+                  </article>
+                  <article class="related-post col-sm-4 w-thumbnails">
+                    <a href="#" class="post-thumbnail">
+                      <img src="assets/img/post-thumb.jpg" alt="Post Title" class="img-responsive">
+                    </a>
+                    <h1 class="post-title"><a href="#">5 råd til valg af det bedste e-handels CMS</a></h1>
+                    <div class="comment-count-wrap">
+                      <a href="#" class="comment-count"><i class="icon-comment"></i> 5</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </article>
+          <aside class="col-sm-4 col-md-3">
+            <div class="widget author-info">
+              <img src="assets/img/morten-kusk.jpg" alt="Morten Kusk" class="author avatar">
+              <h3 class="author-name">Morten Kusk</h3>
+              <div class="author-bio">
+                <p>Morten står for Adwords annoncering og Analytics rapportering for vores kunder. Han har fokus skarpt rettet mod optimering af virksomhedernes markedsføring i søgemaskinerne.</p>
+                <p>Morten kom til Novicell med en markedsføringsuddannelse og hands-on erfaring med online markedsføring og netsalg igennem sin egen webshop. En erfaring, der dækker over eksperimenter og brug af stort set alle markedsføringskanaler, som findes på nettet.</p>
+                <p>Når Morten er væk fra skærmen, bruger han det meste af sin tid på at knokle rundt på mountainbike - og i løb i de Midtjyske bjerge </p>
+              </div>
+              <i class="icon-caret-left"></i>
+            </div>
+          </aside>
         </div>
       </div>
+    </main>
 
-      <div class="navbar navbar-inverse">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
+    <footer id="site-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="footer-info">
+              <a href="#" class="novicel-logo spr">Novicell</a>
+              <p>CMSValg er tænkt, udviklet og drevet af Novicell. Vi bygger intelligente webløsninger og er 35 udviklere, 4 designere, 5 online marketing eksperter.</p>
+            </div>
           </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="../navbar/">Default</a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li class="active"><a href="./">Fixed top</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+          <div class="col-sm-6">
+            <div class="row">
+              <div class="col-sm-4">
+                <p class="footer-icon">
+                  <a href="#"><span class="spr spr-linkedin"></span> LinkedIn Gruppe</a>
+                </p>
+              </div>
+              <div class="col-sm-4">
+
+                <p class="footer-icon"><a href="#"><span class="spr spr-about-cmsvalg"></span> Om CMSValg.dk</a></p>
+              </div>
+              <div class="col-sm-4">
+                <p class="footer-icon"><a href="#" class=""><span class="spr spr-advice"></span> Rådgivning</a></p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
-
-
-      <div class="page-header">
-        <h1>Alerts</h1>
-      </div>
-      <div class="alert alert-success">
-        <strong>Well done!</strong> You successfully read this important alert message.
-      </div>
-      <div class="alert alert-info">
-        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
-      </div>
-      <div class="alert alert-warning">
-        <strong>Warning!</strong> Best check yo self, you're not looking too good.
-      </div>
-      <div class="alert alert-danger">
-        <strong>Oh snap!</strong> Change a few things up and try submitting again.
-      </div>
-
-
-
-      <div class="page-header">
-        <h1>Progress bars</h1>
-      </div>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"><span class="sr-only">40% Complete (success)</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"><span class="sr-only">20% Complete</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span class="sr-only">60% Complete (warning)</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"><span class="sr-only">80% Complete (danger)</span></div>
-      </div>
-      <div class="progress">
-        <div class="progress-bar progress-bar-success" style="width: 35%"><span class="sr-only">35% Complete (success)</span></div>
-        <div class="progress-bar progress-bar-warning" style="width: 20%"><span class="sr-only">20% Complete (warning)</span></div>
-        <div class="progress-bar progress-bar-danger" style="width: 10%"><span class='sr-only'>10% Complete (danger)</span></div>
-      </div>
-
-
-
-      <div class="page-header">
-        <h1>List groups</h1>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <ul class="list-group">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-4">
-          <div class="list-group">
-            <a href="#" class="list-group-item active">
-              Cras justo odio
-            </a>
-            <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-            <a href="#" class="list-group-item">Morbi leo risus</a>
-            <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-            <a href="#" class="list-group-item">Vestibulum at eros</a>
-          </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-4">
-          <div class="list-group">
-            <a href="#" class="list-group-item active">
-              <h4 class="list-group-item-heading">List group item heading</h4>
-              <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-            </a>
-            <a href="#" class="list-group-item">
-              <h4 class="list-group-item-heading">List group item heading</h4>
-              <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-            </a>
-            <a href="#" class="list-group-item">
-              <h4 class="list-group-item-heading">List group item heading</h4>
-              <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-            </a>
-          </div>
-        </div><!-- /.col-sm-4 -->
-      </div>
-
-
-
-      <div class="page-header">
-        <h1>Panels</h1>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-4">
-          <div class="panel panel-success">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-        </div><!-- /.col-sm-4 -->
-        <div class="col-sm-4">
-          <div class="panel panel-warning">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-          <div class="panel panel-danger">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-        </div><!-- /.col-sm-4 -->
-      </div>
-
-
-
-      <div class="page-header">
-        <h1>Wells</h1>
-      </div>
-      <div class="well">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-      </div>
-
-
-    </div> <!-- /container -->
+    </footer>
 
 
     <!-- Bootstrap core JavaScript
@@ -381,5 +200,7 @@
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/holder.js"></script>
+    <script src="assets/js/jquery.placeholder.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
   </body>
 </html>
