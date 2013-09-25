@@ -225,8 +225,26 @@ Twitter: @leogono
     padding: 20px 30px; }
 
 .author-info {
-  padding: 20px 10px;
-  background: white; }
+  padding: 20px;
+  background: white;
+  position: relative;
+  font-size: 12px;
+  font-weight: 400;
+  color: #666666; }
+  .author-info .icon-caret-left {
+    position: absolute;
+    top: 15px;
+    left: -9px;
+    color: white;
+    font-size: 28px; }
+  .author-info .avatar {
+    width: 100%;
+    height: auto;
+    max-width: 250px; }
+  .author-info .author-name {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 700; }
 
 .float-title {
   background: white;
