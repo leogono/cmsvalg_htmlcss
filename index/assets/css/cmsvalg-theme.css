@@ -3,7 +3,9 @@ Author: Leo Gono
 Twitter: @leogono
 */
 .cmsvalg {
-  background: #f4f4f4 url("../img/main-bg.png"); }
+  background: #f4f4f4 url("../img/main-bg.png");
+  font-size: 16px;
+  font-weight: 300; }
 
 #masthead {
   background: url("../img/menu-bg.png") repeat-x left bottom;
@@ -83,7 +85,20 @@ Twitter: @leogono
     font-weight: 300;
     padding: 20px; }
   #main #knowledge-lists {
-    background: white; }
+    background: white;
+    margin-bottom: 20px; }
+    #main #knowledge-lists .row {
+      margin: 0; }
+      #main #knowledge-lists .row > div {
+        padding: 0;
+        border: 1px solid #d6d6d6;
+        border-width: 1px 1px 0 0; }
+    #main #knowledge-lists .knowledge-icon {
+      padding: 0 0 10px;
+      color: #333333; }
+      #main #knowledge-lists .knowledge-icon:hover {
+        color: white;
+        text-decoration: none; }
 
 #sidebar-widget {
   background: white; }
@@ -113,7 +128,7 @@ Twitter: @leogono
         font-size: 12px;
         color: #333333;
         line-height: 16px;
-        margin-top: 5px; }
+        margin-top: 3px; }
         #sidebar-widget .most-contributor li span.author-desc {
           color: #666666;
           margin-top: 0px; }
@@ -122,7 +137,25 @@ Twitter: @leogono
 
 #site-info {
   background: #252525;
-  color: #999; }
+  color: #999;
+  padding: 40px 0; }
+  #site-info .footer-info, #site-info .footer-icon {
+    background: #333333;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 0;
+    margin-bottom: 10px; }
+  #site-info .footer-info {
+    padding: 10px 60px 10px 30px; }
+    #site-info .footer-info .novicel-logo {
+      margin-top: -20px;
+      margin-bottom: 10px; }
+  #site-info .footer-icon {
+    text-align: center; }
+    #site-info .footer-icon a {
+      color: #999; }
+      #site-info .footer-icon a:hover {
+        color: #e6e6e6; }
 
 .spr {
   background: url("../img/sprite-cmsvalg.png") no-repeat; }
@@ -136,3 +169,46 @@ Twitter: @leogono
     border: 0;
     font: 0/0 a;
     text-shadow: none; }
+  .spr.spr-integ {
+    background-position: 0 0; }
+  .spr.spr-ehandel {
+    background-position: -100px 0; }
+  .spr.spr-internl {
+    background-position: -200px 0; }
+  .spr.spr-ppc {
+    background-position: -300px 0; }
+  .spr.spr-seo {
+    background-position: -400px 0; }
+  .spr.spr-marktng {
+    background-position: -500px 0; }
+  .spr.spr-backup {
+    background-position: -600px 0; }
+  .spr.spr-roi {
+    background-position: -700px 0; }
+
+.knowledge-icon {
+  display: block;
+  text-align: center; }
+  .knowledge-icon .spr {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto; }
+  .knowledge-icon:hover {
+    background: #ba0000; }
+    .knowledge-icon:hover > .spr-integ {
+      background-position: 0 -100px; }
+    .knowledge-icon:hover > .spr-ehandel {
+      background-position: -100px -100px; }
+    .knowledge-icon:hover > .spr-internl {
+      background-position: -200px -100px; }
+    .knowledge-icon:hover > .spr-ppc {
+      background-position: -300px -100px; }
+    .knowledge-icon:hover > .spr-seo {
+      background-position: -400px -100px; }
+    .knowledge-icon:hover > .spr-marktng {
+      background-position: -500px -100px; }
+    .knowledge-icon:hover > .spr-backup {
+      background-position: -600px -100px; }
+    .knowledge-icon:hover > .spr-roi {
+      background-position: -700px -100px; }
