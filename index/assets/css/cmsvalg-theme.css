@@ -222,7 +222,48 @@ Twitter: @leogono
   margin-top: 20px; }
   .single #main .post {
     background: white;
-    padding: 20px 30px; }
+    padding: 20px 0; }
+    .single #main .post #comments-tag, .single #main .post .post-header, .single #main .post .entry-content, .single #main .post .referencer {
+      padding: 0 30px; }
+    .single #main .post #comments-tag, .single #main .post .referencer {
+      padding-top: 20px;
+      padding-bottom: 10px;
+      border-top: 1px solid #cfcfcf;
+      font-weight: 400;
+      color: #666666; }
+
+.post-header .post-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px 0 20px; }
+
+.post-meta .post-author {
+  font-size: 18px;
+  color: #666666; }
+  .post-meta .post-author a {
+    font-weight: 700;
+    color: #666666; }
+    .post-meta .post-author a:hover {
+      color: #ba0000; }
+.post-meta .additional-meta {
+  list-style: none;
+  padding: 0;
+  font-weight: 400;
+  color: #999999;
+  padding: 5px 0;
+  margin: 10px 0;
+  border: 1px solid #d6d6d6;
+  border-width: 1px 0; }
+  .post-meta .additional-meta li {
+    float: left;
+    margin-right: 30px; }
+    .post-meta .additional-meta li a {
+      color: #999999; }
+      .post-meta .additional-meta li a:hover {
+        color: #ba0000; }
+    .post-meta .additional-meta li [class^="icon-"], .post-meta .additional-meta li [class*=" icon-"] {
+      color: #ba0000;
+      margin-right: 5px; }
 
 .author-info {
   padding: 20px;
@@ -245,6 +286,21 @@ Twitter: @leogono
     font-size: 16px;
     color: #333333;
     font-weight: 700; }
+
+.entry-content {
+  font-weight: 400;
+  color: #666666; }
+  .entry-content h2, .entry-content h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 1.4em; }
+
+.box-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+  margin: 0 0 10px; }
 
 .float-title {
   background: white;
