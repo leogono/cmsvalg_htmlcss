@@ -59,7 +59,8 @@ Twitter: @leogono
   margin-top: 30px;
   padding: 10px 15px; }
   #breadcrumbs .cms-drop {
-    position: relative; }
+    position: relative;
+    display: inline-block; }
   #breadcrumbs p {
     margin: 0; }
   #breadcrumbs .bcrumbs {
@@ -315,7 +316,79 @@ Twitter: @leogono
 
 .cms #cms-intro-box {
   background: white;
-  padding: 30px; }
+  padding: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #999999; }
+  .cms #cms-intro-box .cms-icon {
+    margin-top: -3px;
+    margin-right: 10px; }
+  .cms #cms-intro-box .cms-header h1 {
+    font-size: 24px;
+    font-weight: 300; }
+  .cms #cms-intro-box .cms-desc {
+    font-size: 14px;
+    color: #666666; }
+.cms .modal-dialog {
+  width: 620px; }
+.cms .modal-backdrop {
+  background: rgba(0, 0, 0, 0.3); }
+.cms #cms-rel-top {
+  border-bottom: 1px solid #999999;
+  padding: 0 10px; }
+  .cms #cms-rel-top h3 {
+    margin: 0;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 300; }
+  .cms #cms-rel-top .cms-sorter {
+    padding: 15px;
+    border-left: 1px solid #999999;
+    font-size: 15px; }
+    .cms #cms-rel-top .cms-sorter a {
+      color: #333333; }
+      .cms #cms-rel-top .cms-sorter a:hover {
+        color: #ba0000; }
+    .cms #cms-rel-top .cms-sorter .dropdown-menu a:hover {
+      color: white; }
+.cms #cms-rel-posts {
+  margin-bottom: 20px; }
+.cms #load-more {
+  padding-top: 10px;
+  display: block;
+  color: #333333;
+  text-decoration: underline; }
+  .cms #load-more:hover {
+    color: #ba0000; }
+.cms #ref-box {
+  background: white;
+  min-height: 265px;
+  margin-bottom: 20px; }
+  .cms #ref-box h1 {
+    background: #333333;
+    padding: 20px 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0; }
+  .cms #ref-box ul {
+    list-style: none;
+    padding: 20px 30px; }
+    .cms #ref-box ul li {
+      line-height: 40px; }
+      .cms #ref-box ul li a {
+        color: #333333;
+        text-decoration: underline; }
+        .cms #ref-box ul li a:hover {
+          color: #ba0000; }
+      .cms #ref-box ul li [class^="icon-"], .cms #ref-box ul li [class*=" icon-"] {
+        color: #ba0000;
+        margin-right: 5px; }
+.cms #cta-bottom a {
+  font-size: 20px;
+  font-weight: 300;
+  width: 100%;
+  padding: 20px 5%;
+  display: inline-block; }
 
 .spr {
   background: url("../img/sprite-cmsvalg.png") no-repeat; }

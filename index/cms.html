@@ -63,7 +63,7 @@
     <div class="container">
       <div id="breadcrumbs">
         <div>
-          <a href="#" class="bcrumbs url">Forside</a> <span class="current cms-drop"><i class="icon-caret-right"></i> <a href="#" class="bcrumbs url dropdown-toggle"data-toggle="dropdown">Umbraco <i class="icon-caret-down"></i></a>
+          <a href="#" class="bcrumbs url">Forside</a> <span class="current cms-drop"><i class="icon-caret-right"></i> <a href="#" class="bcrumbs url dropdown-toggle" data-toggle="dropdown">Umbraco <i class="icon-caret-down"></i></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
@@ -92,105 +92,116 @@
             </div>
             <div class="col-sm-6 col-md-5">
               <div class="cms-video">
-                <a href="#"><img src="assets/img/cms-page/cms-video.jpg" alt="" class="img-responsive cms-video-thumb"></a>
+                <a data-toggle="modal" href="#videoModal"><img src="assets/img/cms-page/cms-video.jpg" alt="" class="img-responsive cms-video-thumb"></a>
+              </div>
+              <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <iframe width="560" height="315" src="//www.youtube.com/embed/e-n8cbenSVI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
           </div>
         </div>
 
-        <div class="row">
-          <article class="col-sm-8 col-md-9">
-            <div id="content" class="post">
-              <header class="post-header">
-                <h1 class="post-title">Valg af Umbraco leverandør</h1>
-                <div class="meta post-meta">
-                  <div class="post-author">
-                    Skrevet af <a href="#" >Morten Kusk</a>
-                  </div>
-                  <ul class="additional-meta clearfix">
-                    <li class="date"><i class="icon-calendar"></i> 27. august, 2013</li>
-                    <li class="category"><i class="icon-tags"></i> Umbraco</li>
-                    <li class="comments"><i class="icon-comments"></i> <a href="#comments-tag">3 kommentarer</a></li>
-                  </ul>
-                </div>
-              </header>
-              <div class="entry-content">
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit.</p>
-                <h2>Overskrift på afsnit</h2>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
-                <p>
-                  <img data-src="holder.js/800x300" src="data:image/png;base64," class="img-thumbnail img-responsive" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
-                  <caption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, sunt, voluptates eveniet expedita minus sint ad earum provident fugit veniam eum rem quisquam blanditiis. Nisi qui tempore reiciendis officia harum.</caption>
-                </p>
-                <h2>Overskrift på afsnit</h2>
-                <p>Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
-              </div>
-              <div class="referencer">
-                <h2 class="box-title">Referencer</h2>
-                <ul class="lists referemce-list">
-                  <li><a href="#">Lorem ipsum dolor sit amet</a> - Proin gravida nibh vel velit auctor aliquet.</li>
-                  <li><a href="#">Lorem ipsum dolor sit amet</a> - Proin gravida nibh vel velit auctor aliquet.</li>
-                  <li><a href="#">Lorem ipsum dolor sit amet</a> - Proin gravida nibh vel velit auctor aliquet.</li>
+        <!-- CMS Related -->
+        <div id="cms-rel-top" class="float-title">
+          <div class="row">
+            <div class="col-sm-9">
+              <h3>Seneste Umbraco-relaterede artikler</h3>
+            </div>
+            <div class="col-sm-3">
+              <div class="cms-sorter">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sorter efter CMS <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
                 </ul>
               </div>
-              <div id="comments-tag">
-                <h2 class="box-title">Kommentarer</h2>
-                <img data-src="holder.js/800x300/simple/text:Disqus Comment" src="data:image/png;base64," class="img-responsive" alt="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera">
-              </div>
             </div>
+          </div>
+        </div>
 
-            <!-- Related Posts -->
-            <div id="related-posts">
-              <h2 class="float-title">Relaterede Umbraco artikler</h2>
+        <div id="cms-rel-posts">
+          <div class="row">
+            <article class="post col-xs-6 col-sm-6 col-md-3 w-thumbnails">
+              <a href="#" class="post-thumbnail">
+                <img src="assets/img/post-thumb.jpg" alt="Post Title" class="img-responsive">
+              </a>
+              <h1 class="post-title"><a href="#">5 råd til valg af det bedste e-handels CMS</a></h1>
+              <div class="comment-count-wrap">
+                <a href="#" class="comment-count"><i class="icon-comment"></i> 5</a>
+              </div>
+            </article>
+            <article class="post col-xs-6 col-sm-6 col-md-3 w-thumbnails">
+              <a href="#" class="post-thumbnail">
+                <img src="assets/img/post-thumb.jpg" alt="Post Title" class="img-responsive">
+              </a>
+              <h1 class="post-title"><a href="#">5 råd til valg af det bedste e-handels CMS</a></h1>
+              <div class="comment-count-wrap">
+                <a href="#" class="comment-count"><i class="icon-comment"></i> 5</a>
+              </div>
+            </article>
+            <article class="post col-xs-6 col-sm-6 col-md-3 w-thumbnails">
+              <a href="#" class="post-thumbnail">
+                <img src="assets/img/post-thumb.jpg" alt="Post Title" class="img-responsive">
+              </a>
+              <h1 class="post-title"><a href="#">5 råd til valg af det bedste e-handels CMS</a></h1>
+              <div class="comment-count-wrap">
+                <a href="#" class="comment-count"><i class="icon-comment"></i> 5</a>
+              </div>
+            </article>
+            <article class="post col-xs-6 col-sm-6 col-md-3 w-thumbnails">
+              <a href="#" class="post-thumbnail">
+                <img src="assets/img/post-thumb.jpg" alt="Post Title" class="img-responsive">
+              </a>
+              <h1 class="post-title"><a href="#">5 råd til valg af det bedste e-handels CMS</a></h1>
+              <div class="comment-count-wrap">
+                <a href="#" class="comment-count"><i class="icon-comment"></i> 5</a>
+              </div>
+            </article>
 
-              <div id="content-lists">
-                <div class="row">
-                  <article class="related-post col-sm-4 w-thumbnails">
-                    <a href="#" class="post-thumbnail">
-                      <img src="assets/img/post-thumb.jpg" alt="Post Title" class="img-responsive">
-                    </a>
-                    <h1 class="post-title"><a href="#">5 råd til valg af det bedste e-handels CMS</a></h1>
-                    <div class="comment-count-wrap">
-                      <a href="#" class="comment-count"><i class="icon-comment"></i> 5</a>
-                    </div>
-                  </article>
-                  <article class="related-post col-sm-4 w-thumbnails">
-                    <a href="#" class="post-thumbnail">
-                      <img src="assets/img/post-thumb.jpg" alt="Post Title" class="img-responsive">
-                    </a>
-                    <h1 class="post-title"><a href="#">5 råd til valg af det bedste e-handels CMS</a></h1>
-                    <div class="comment-count-wrap">
-                      <a href="#" class="comment-count"><i class="icon-comment"></i> 5</a>
-                    </div>
-                  </article>
-                  <article class="related-post col-sm-4 w-thumbnails">
-                    <a href="#" class="post-thumbnail">
-                      <img src="assets/img/post-thumb.jpg" alt="Post Title" class="img-responsive">
-                    </a>
-                    <h1 class="post-title"><a href="#">5 råd til valg af det bedste e-handels CMS</a></h1>
-                    <div class="comment-count-wrap">
-                      <a href="#" class="comment-count"><i class="icon-comment"></i> 5</a>
-                    </div>
-                  </article>
-                </div>
+          </div>
+          <p class="text-center"><a href="#" id="load-more">Se alle artikler om Umbraco</a></p>
+        </div>
+
+        <div id="cms-ref">
+          <div class="row">
+            <div class="col-sm-6">
+              <div id="ref-box">
+                <h1>Godt at vide om Umbraco</h1>
+                <ul class="cms-facts">
+                  <li><i class="icon-circle-arrow-right"></i> Open Source CMS</li>
+                  <li><i class="icon-circle-arrow-right"></i> Dansk-udviklet CMS</li>
+                  <li><i class="icon-circle-arrow-right"></i> Ca. 300.000 aktive installationer</li>
+                  <li><i class="icon-circle-arrow-right"></i> uCommerce</li>
+                </ul>
               </div>
             </div>
-          </article>
-          <aside class="col-sm-4 col-md-3">
-            <div class="widget author-info">
-              <img src="assets/img/morten-kusk.jpg" alt="Morten Kusk" class="author avatar">
-              <h3 class="author-name">Morten Kusk</h3>
-              <div class="author-bio">
-                <p>Morten står for Adwords annoncering og Analytics rapportering for vores kunder. Han har fokus skarpt rettet mod optimering af virksomhedernes markedsføring i søgemaskinerne.</p>
-                <p>Morten kom til Novicell med en markedsføringsuddannelse og hands-on erfaring med online markedsføring og netsalg igennem sin egen webshop. En erfaring, der dækker over eksperimenter og brug af stort set alle markedsføringskanaler, som findes på nettet.</p>
-                <p>Når Morten er væk fra skærmen, bruger han det meste af sin tid på at knokle rundt på mountainbike - og i løb i de Midtjyske bjerge </p>
+            <div class="col-sm-6">
+              <div id="ref-box">
+                <h1>Andre gode Umbraco ressourcer</h1>
+                <ul class="cms-facts">
+                  <li><i class="icon-circle-arrow-right"></i> <a href="#">Umbraco.org</a></li>
+                  <li><i class="icon-circle-arrow-right"></i> <a href="#">Umbraco Community</a></li>
+                  <li><i class="icon-circle-arrow-right"></i> <a href="#">Codegarden</a></li>
+                </ul>
               </div>
-              <i class="icon-caret-left"></i>
             </div>
-          </aside>
+          </div>
+        </div>
+
+        <div id="cta-bottom">
+
+            <a href="#" class="btn btn-primary btn-lg">Jeg vil gerne kontaktes vedr. en Umbraco løsning</a>
+
         </div>
       </div>
     </main>
