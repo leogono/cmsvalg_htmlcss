@@ -58,6 +58,8 @@ Twitter: @leogono
   background: white;
   margin-top: 30px;
   padding: 10px 15px; }
+  #breadcrumbs .cms-drop {
+    position: relative; }
   #breadcrumbs p {
     margin: 0; }
   #breadcrumbs .bcrumbs {
@@ -69,6 +71,8 @@ Twitter: @leogono
   #breadcrumbs .icon-chevron-right {
     font-size: 13px;
     margin-right: 5px; }
+  #breadcrumbs .dropdown-menu a:hover {
+    color: white; }
 
 #main {
   margin-top: -7px;
@@ -218,19 +222,20 @@ Twitter: @leogono
       display: block;
       margin: 15px auto; }
 
-.single #main {
+.single #main, .cms #main {
   margin-top: 20px; }
-  .single #main .post {
-    background: white;
-    padding: 20px 0; }
-    .single #main .post #comments-tag, .single #main .post .post-header, .single #main .post .entry-content, .single #main .post .referencer {
-      padding: 0 30px; }
-    .single #main .post #comments-tag, .single #main .post .referencer {
-      padding-top: 20px;
-      padding-bottom: 10px;
-      border-top: 1px solid #cfcfcf;
-      font-weight: 400;
-      color: #666666; }
+
+.single #main .post {
+  background: white;
+  padding: 20px 0; }
+  .single #main .post #comments-tag, .single #main .post .post-header, .single #main .post .entry-content, .single #main .post .referencer {
+    padding: 0 30px; }
+  .single #main .post #comments-tag, .single #main .post .referencer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid #cfcfcf;
+    font-weight: 400;
+    color: #666666; }
 
 .post-header .post-title {
   font-size: 36px;
@@ -307,6 +312,10 @@ Twitter: @leogono
   font-size: 16px;
   font-weight: 300;
   padding: 15px; }
+
+.cms #cms-intro-box {
+  background: white;
+  padding: 30px; }
 
 .spr {
   background: url("../img/sprite-cmsvalg.png") no-repeat; }

@@ -1,6 +1,10 @@
-.single {
+.single, .cms {
 	#main{
 		margin-top: 20px;
+	}
+}
+.single {
+	#main{
 		.post {
 			background: $white;
 			padding: 20px 0;

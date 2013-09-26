@@ -24,7 +24,7 @@
     <![endif]-->
   </head>
 
-  <body class="home cmsvalg single">
+  <body class="home cmsvalg cms">
 
     <header id="masthead">
       <div class="container">
@@ -62,12 +62,43 @@
 
     <div class="container">
       <div id="breadcrumbs">
-        <p><a href="#" class="bcrumbs url">Forside</a>        <a href="#" class="bcrumbs url">Umbraco</a>        <span class="bcrumbs current"><i class="icon-caret-right"></i> Valg af Umbraco leverandør</span></p>
+        <div>
+          <a href="#" class="bcrumbs url">Forside</a> <span class="current cms-drop"><i class="icon-caret-right"></i> <a href="#" class="bcrumbs url dropdown-toggle"data-toggle="dropdown">Umbraco <i class="icon-caret-down"></i></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+          </span>
+        </div>
       </div>
     </div>
 
     <main id="main" role="document">
       <div class="container">
+        <!-- CMS Intro box -->
+        <div id="cms-intro-box">
+          <div class="row">
+            <div class="col-sm-6 col-md-7">
+              <header class="cms-header">
+                <img src="assets/img/cms-icon/umbraco-icon.png" alt="" class="cms-icon pull-left">
+                <h1>Umbraco</h1>
+              </header>
+              <div class="cms-desc">
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-5">
+              <div class="cms-video">
+                <a href="#"><img src="assets/img/cms-page/cms-video.jpg" alt="" class="img-responsive cms-video-thumb"></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
         <div class="row">
           <article class="col-sm-8 col-md-9">
             <div id="content" class="post">
