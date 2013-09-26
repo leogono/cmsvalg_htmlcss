@@ -223,7 +223,7 @@ Twitter: @leogono
       display: block;
       margin: 15px auto; }
 
-.single #main, .cms #main {
+.single #main, .cms #main, .kategori #main {
   margin-top: 20px; }
 
 .single #main .post {
@@ -314,81 +314,92 @@ Twitter: @leogono
   font-weight: 300;
   padding: 15px; }
 
-.cms #cms-intro-box {
+.cms #cms-intro-box, .kategori #cms-intro-box {
   background: white;
   padding: 30px;
   margin-bottom: 20px;
   border-bottom: 1px solid #999999; }
-  .cms #cms-intro-box .cms-icon {
+  .cms #cms-intro-box .cms-icon, .kategori #cms-intro-box .cms-icon {
     margin-top: -3px;
     margin-right: 10px; }
-  .cms #cms-intro-box .cms-header h1 {
+  .cms #cms-intro-box .cms-header h1, .kategori #cms-intro-box .cms-header h1 {
     font-size: 24px;
     font-weight: 300; }
-  .cms #cms-intro-box .cms-desc {
+  .cms #cms-intro-box .cms-desc, .kategori #cms-intro-box .cms-desc {
     font-size: 14px;
     color: #666666; }
-.cms .modal-dialog {
+.cms .modal-dialog, .kategori .modal-dialog {
   width: 620px; }
-.cms .modal-backdrop {
+.cms .modal-backdrop, .kategori .modal-backdrop {
   background: rgba(0, 0, 0, 0.3); }
-.cms #cms-rel-top {
+.cms #cms-rel-top, .kategori #cms-rel-top {
   border-bottom: 1px solid #999999;
   padding: 0 10px; }
-  .cms #cms-rel-top h3 {
+  .cms #cms-rel-top h3, .kategori #cms-rel-top h3 {
     margin: 0;
     padding: 15px 0;
     font-size: 16px;
     font-weight: 300; }
-  .cms #cms-rel-top .cms-sorter {
+  .cms #cms-rel-top .cms-sorter, .kategori #cms-rel-top .cms-sorter {
     padding: 15px;
     border-left: 1px solid #999999;
     font-size: 15px; }
-    .cms #cms-rel-top .cms-sorter a {
+    .cms #cms-rel-top .cms-sorter a, .kategori #cms-rel-top .cms-sorter a {
       color: #333333; }
-      .cms #cms-rel-top .cms-sorter a:hover {
+      .cms #cms-rel-top .cms-sorter a:hover, .kategori #cms-rel-top .cms-sorter a:hover {
         color: #ba0000; }
-    .cms #cms-rel-top .cms-sorter .dropdown-menu a:hover {
+    .cms #cms-rel-top .cms-sorter .dropdown-menu a:hover, .kategori #cms-rel-top .cms-sorter .dropdown-menu a:hover {
       color: white; }
-.cms #cms-rel-posts {
+.cms #cms-rel-posts, .kategori #cms-rel-posts {
   margin-bottom: 20px; }
-.cms #load-more {
+.cms #load-more, .kategori #load-more {
   padding-top: 10px;
   display: block;
   color: #333333;
   text-decoration: underline; }
-  .cms #load-more:hover {
+  .cms #load-more:hover, .kategori #load-more:hover {
     color: #ba0000; }
-.cms #ref-box {
+.cms #ref-box, .kategori #ref-box {
   background: white;
   min-height: 265px;
   margin-bottom: 20px; }
-  .cms #ref-box h1 {
+  .cms #ref-box h1, .kategori #ref-box h1 {
     background: #333333;
     padding: 20px 30px;
     color: white;
     font-size: 20px;
     font-weight: 300;
     margin: 0; }
-  .cms #ref-box ul {
+  .cms #ref-box ul, .kategori #ref-box ul {
     list-style: none;
     padding: 20px 30px; }
-    .cms #ref-box ul li {
+    .cms #ref-box ul li, .kategori #ref-box ul li {
       line-height: 40px; }
-      .cms #ref-box ul li a {
+      .cms #ref-box ul li a, .kategori #ref-box ul li a {
         color: #333333;
         text-decoration: underline; }
-        .cms #ref-box ul li a:hover {
+        .cms #ref-box ul li a:hover, .kategori #ref-box ul li a:hover {
           color: #ba0000; }
-      .cms #ref-box ul li [class^="icon-"], .cms #ref-box ul li [class*=" icon-"] {
+      .cms #ref-box ul li [class^="icon-"], .cms #ref-box ul li [class*=" icon-"], .kategori #ref-box ul li [class^="icon-"], .kategori #ref-box ul li [class*=" icon-"] {
         color: #ba0000;
         margin-right: 5px; }
-.cms #cta-bottom a {
+.cms #cta-bottom a, .kategori #cta-bottom a {
   font-size: 20px;
   font-weight: 300;
   width: 100%;
   padding: 20px 5%;
   display: inline-block; }
+
+.kategori #cms-intro-box .cms-header {
+  margin-bottom: 20px; }
+  .kategori #cms-intro-box .cms-header .cms-icon {
+    margin-top: -7px; }
+.kategori #cms-rel-top .btn {
+  font-size: 16px;
+  display: block;
+  padding: 20px;
+  margin-right: -10px;
+  margin-left: -10px; }
 
 .spr {
   background: url("../img/sprite-cmsvalg.png") no-repeat; }

@@ -1,4 +1,4 @@
-.cms {
+.cms, .kategori {
 	#cms-intro-box {
 		background: $white;
 		padding: 30px;
@@ -107,4 +107,24 @@
 			display: inline-block;
 		}
 	}
+}
+.kategori {
+	#cms-intro-box {
+		.cms-header {
+			margin-bottom: 20px;
+			.cms-icon {
+				margin-top: -7px;
+			}
+		}
+	}
+	#cms-rel-top {
+		.btn {
+			font-size: 16px;
+			display: block;
+			padding: 20px;
+			margin-right: -10px;
+			margin-left: -10px;
+		}
+	}
+	
 }
