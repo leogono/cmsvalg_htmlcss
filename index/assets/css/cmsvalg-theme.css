@@ -61,6 +61,13 @@ Twitter: @leogono
   #breadcrumbs .cms-drop {
     position: relative;
     display: inline-block; }
+  #breadcrumbs > ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0; }
+    #breadcrumbs > ul > li {
+      float: left;
+      margin-right: 10px; }
   #breadcrumbs p {
     margin: 0; }
   #breadcrumbs .bcrumbs {

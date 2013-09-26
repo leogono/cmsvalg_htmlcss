@@ -76,6 +76,15 @@ Twitter: @leogono
 		position: relative;
 		display: inline-block;
 	}
+	> ul {
+		padding: 0;
+		list-style: none;
+		margin-bottom: 0;
+		> li {
+			float: left;
+			margin-right: 10px;
+		}
+	}
 	p  {
 		margin: 0;
 	}

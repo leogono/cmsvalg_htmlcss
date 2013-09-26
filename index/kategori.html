@@ -46,7 +46,7 @@
               <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                 Alt vores CMS viden <span class="caret"></span>
               </button>
-              <ul class="dropdown-menu" role="menu">
+              <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
                 <li><a href="#">Something else here</a></li>
@@ -62,21 +62,24 @@
 
     <div class="container">
       <div id="breadcrumbs">
-        <div>
-          <a href="#" class="bcrumbs url">Forside</a> <span class="current cms-drop"><i class="icon-caret-right"></i> <a href="#" class="bcrumbs url dropdown-toggle" data-toggle="dropdown">Integration <i class="icon-caret-down"></i></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-          </span>
-        </div>
+        <ul class="clearfix">
+          <li><a href="#" class="bcrumbs url">Forside</a></li>
+          <li class="cms-drop current">
+            <i class="icon-caret-right"></i>
+            <a href="#" class="bcrumbs url dropdown-toggle" data-toggle="dropdown">Integration<i class="icon-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
 
-    <main id="main" role="document">
+    <main id="main" role="main">
       <div class="container">
         <!-- CMS Intro box -->
         <div id="cms-intro-box">
