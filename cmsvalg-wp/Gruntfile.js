@@ -26,6 +26,16 @@ module.exports = function(grunt) {
         }
       }
     },
+    sass: {
+      compile: {
+        options: {
+          outputStyle: 'compressed'
+        },
+        files: {
+          'assets/css/cmsvalg.min.css': 'assets/scss/cmsvalg-theme.scss'
+        }
+      }
+    },
     uglify: {
       dist: {
         files: {
@@ -65,6 +75,12 @@ module.exports = function(grunt) {
         ],
         tasks: ['recess', 'version']
       },
+      scss: {
+        files: [
+          'assets/scss/*.scss'
+        ],
+        tasks: ['sass']
+      },
       js: {
         files: [
           '<%= jshint.all %>'
@@ -88,6 +104,7 @@ module.exports = function(grunt) {
     clean: {
       dist: [
         'assets/css/main.min.css',
+        'assets/css/cmsvalg.min.css',
         'assets/js/scripts.min.js'
       ]
     }
@@ -98,6 +115,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-recess');
   grunt.loadNpmTasks('grunt-wp-version');
 
@@ -105,6 +123,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'clean',
     'recess',
+    'sass',
     'uglify',
     'version'
   ]);
