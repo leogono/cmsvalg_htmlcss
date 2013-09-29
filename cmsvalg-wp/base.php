@@ -1,5 +1,5 @@
 <?php get_template_part('templates/head'); ?>
-<body <?php body_class(); ?>>
+<body <?php body_class('cmsvalg'); ?>>
 
   <!--[if lt IE 8]><div class="alert alert-warning"><?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?></div><![endif]-->
 
@@ -12,7 +12,34 @@
       get_template_part('templates/header');
     }
   ?>
-
+  
+  <?php if(!is_front_page()) {
+    ?>
+    <div class="container">
+      <div id="breadcrumbs">
+        <ul class="clearfix">
+          <li><a href="#" class="bcrumbs url">Forside</a></li>
+          <li class="cms-drop current">
+            <i class="icon-caret-right"></i>
+            <a href="#" class="bcrumbs url dropdown-toggle" data-toggle="dropdown">Umbraco<i class="icon-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <?php
+  } ?>
+  
+  <main id="main">
+    <?php include roots_template_path(); ?>
+  </main>
+  <?php /*
   <div class="wrap container" role="document">
     <div class="content row">
       <div class="main <?php echo roots_main_class(); ?>" role="main">
@@ -25,6 +52,7 @@
       <?php endif; ?>
     </div><!-- /.content -->
   </div><!-- /.wrap -->
+  */ ?>
 
   <?php get_template_part('templates/footer'); ?>
 

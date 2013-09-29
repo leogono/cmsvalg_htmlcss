@@ -13,6 +13,9 @@ function roots_setup() {
 
   // Add post thumbnails (http://codex.wordpress.org/Post_Thumbnails)
   add_theme_support('post-thumbnails');
+  add_image_size('featured-thumb', 850, 388, true);
+  add_image_size('posts-thumb', 300, 320, true);
+
   // set_post_thumbnail_size(150, 150, false);
   // add_image_size('category-thumb', 300, 9999); // 300px wide (and unlimited height)
 
